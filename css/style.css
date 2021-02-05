@@ -507,3 +507,30 @@ input.button:hover {
 .contato-mapa img {
   width: 100%;
 }
+
+footer {
+  padding: 20px 0;
+  background: #2a2426;
+  -webkit-box-shadow: 0 0 0 10px #2a2426;
+  -moz-box-shadow: 0 0 0 10px #2a2426;
+  box-shadow: 0 0 0 10px #2a2426;
+}
+
+footer p {
+  color: #edece4;
+  float: left;
+}
+
+footer a {
+  color: #fff;
+  float: right;
+}
+
+@media screen and (max-width: 479px) {
+  footer {
+    text-align: center;
+  }
+  footer a {
+    float: none;
+  }
+}
