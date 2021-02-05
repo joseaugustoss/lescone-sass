@@ -346,3 +346,70 @@ p {
   border: 10px solid #cbc6b9;
   width: 100%;
 }
+
+.menu {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 479px) {
+  .menu {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.menu-item {
+  margin-bottom: 60px;
+}
+
+.menu-item h2 {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+
+.menu-item li {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  line-height: 1.94444em;
+}
+
+.menu-item li span {
+  font-family: "Aref Ruqaa", serif;
+  color: #988c77;
+  display: inline-block;
+  width: 70px;
+  margin-right: 1px;
+  text-align: right;
+  margin-left: -80px;
+}
+
+@media screen and (max-width: 479px) {
+  .menu-item li span {
+    margin-left: 0px;
+  }
+}
+
+.menu-item img {
+  border-radius: 50%;
+  border: 10px solid #cbc6b9;
+  position: absolute;
+  right: 0px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-item img {
+    right: 120px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-item img {
+    width: 120px;
+    margin-top: 0px;
+  }
+}
