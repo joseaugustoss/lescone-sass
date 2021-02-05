@@ -58,22 +58,6 @@ table {
   box-sizing: border-box;
 }
 
-p {
-  color: blue;
-}
-
-@media screen and (min-width: 760px) and (max-width: 1199px) {
-  p {
-    color: pink;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  p {
-    color: aqua;
-  }
-}
-
 .grid-1 {
   width: calc(8.33333% - 20px);
 }
@@ -235,4 +219,9 @@ p {
   content: "";
   display: table;
   clear: both;
+}
+
+div {
+  font-family: "Aref Ruqaa", serif;
+  font-family: "PT Mono", monospace;
 }
