@@ -226,3 +226,123 @@ body {
   border: 10px solid #cbc6b9;
   color: #2a2426;
 }
+
+@media screen and (max-width: 479px) {
+  body {
+    border: none;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+}
+
+.titulo {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 479px) {
+  .titulo {
+    margin-bottom: 40px;
+  }
+}
+
+.titulo::after {
+  content: "";
+  display: block;
+  width: 75%;
+  float: right;
+  height: 2px;
+  background: #2a2426;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+  .titulo::after {
+    width: 60%;
+  }
+}
+
+.intro {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 479px) {
+  .intro {
+    margin-top: 20px;
+  }
+}
+
+.logo {
+  margin-bottom: 60px;
+}
+
+.info-intro {
+  border-right: 2px solid #2a2426;
+  max-width: 320px;
+}
+
+.info-intro p {
+  padding-top: 10px;
+}
+
+.info-intro p:first-child {
+  border-bottom: 2px solid #2a2426;
+  padding-bottom: 10px;
+}
+
+.intro-telefone {
+  color: #988c77;
+}
+
+@media screen and (max-width: 479px) {
+  .intro-telefone {
+    margin-bottom: 40px;
+  }
+}
+
+.intro-telefone::after {
+  content: "/ / / /";
+  display: block;
+  margin-top: 150px;
+  font-size: 220px;
+  letter-spacing: -40px;
+  color: #2a2426;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+  .intro-telefone::after {
+    margin-top: 80px;
+    font-size: 160px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .intro-telefone::after {
+    display: none;
+  }
+}
+
+.aberto {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #1ab912;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.intro-foto {
+  border: 10px solid #cbc6b9;
+  width: 100%;
+}
